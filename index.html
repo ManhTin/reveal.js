@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Barrierefreiheit Demo</title>
 
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
@@ -25,8 +25,109 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<h2>Willkommen zur Demo</h2>
+					<p>
+						...zur Barrierefreiheit von reveal.js
+					</p>
+				</section>
+
+				<section>
+					<h2>Zweck der Demo</h2>
+					<p>Nehmen wir möglichst viele Aspekte von reveal.js unter die Lupe, welche im Rahmen einer Präsentation relevant sind.</p>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<h2>Vertikale Folien</h2>
+						<p>Folien können ineinander verschachtelt werden um Hierarchien abzubilden</p>
+						<br>
+						<a href="#" class="navigate-down">
+							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Pfeil nach unten">
+						</a>
+					</section>
+					<section>
+						<h2>Unterfolie</h2>
+						<p>Lorem Ipsum dolor sit amet.</p>
+					</section>
+				</section>
+
+				<section>
+					<h2>Integration von Bildern</h2>
+					<p>Fotos sind ein wichtiger Bestandteil von Präsentationen</p>
+					<br>
+					<img height="300" data-src="https://images.unsplash.com/photo-1490012991172-69c0052d029c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=5068&q=80" alt="Gebäudeecke von unten aufgenommen">
+				</section>
+
+				<section>
+					<h2>...Videos ebenso</h2>
+						<video data-autoplay class="stretch" src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"></video>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+						## Markdown Unterstützung
+
+						Folien können auch in Markdown geschrieben werden.
+
+						```
+						<section data-markdown>
+						  ## Markdown Unterstützung
+
+						  Folien können auch in Markdown geschrieben werden.
+						</section>
+						```
+					</script>
+				</section>
+
+				<section>
+					<h2>Ungeordnete Einkaufsliste</h2>
+					<ul>
+						<li>Äpfel</li>
+						<li>Bananen</li>
+						<li>Kiwi</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Nummerierte TODO Liste</h2>
+					<ol>
+						<li>TODO Liste erstellen</li>
+						<li>TODO anlegen</li>
+						<li>TODO erledigen</li>
+					</ol>
+				</section>
+
+				<section>
+					<h2>Preisliste</h2>
+					<table>
+						<thead>
+							<tr>
+								<th>Obst</th>
+								<th>Preis pro KG</th>
+								<th>Menge</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Äpfel</td>
+								<td>1,99€</td>
+								<td>29</td>
+							</tr>
+							<tr>
+								<td>Bananen</td>
+								<td>1,09€</td>
+								<td>32</td>
+							</tr>
+							<tr>
+								<td>Kiwi</td>
+								<td>4,39€</td>
+								<td>27</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
 			</div>
 		</div>
 
